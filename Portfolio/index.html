@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Hind:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo" class="myFont">Portfolio</div>
+            <ul id="navitems">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><i class="fa-solid fa-circle-xmark" id="close"></i></li>
+               
+            </ul>
+            <i class="fa-solid fa-bars" id="open"></i>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--............................. Home Section.......... -->
+        <section id="home"  class="section">
+           <div id="image">
+            <img src="images/myImage.jpg" alt="">
+           </div>
+           <div id="details">
+            <h2>Hi, Myself</h2>
+            <p class="name">Tapadyoti Das</p>
+            <div class="bio">
+                <p>And I'm a</p> <span>Front End Developer</span>
+            </div>
+            <div class="socialMedia">
+                <a href="https://www.linkedin.com/in/tapadyoti/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/tapadyotidas" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/tapadyoti" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="Tapadyoti.pdf" class="downloadBtn" >Download Resume</a>
+           </div> 
+          
+        </section>
+        <hr>
+
+        <!-- ..............................About Section .......-->
+         <section id="about"  class="section">
+            <div class="aboutme">
+               <div> <span>About</span><span>Me</span></div>
+               <p>I am a passionate front-end developer with a keen eye for design and functionality. With skills in HTML, CSS, Tailwind CSS, and JavaScript, I specialize in creating responsive and dynamic web applications that provide an excellent user experience. My work is driven by a commitment to clean code and innovative design principles. In addition to my professional skills, I enjoy listening to music and playing the guitar and piano, which inspire my creativity and problem-solving approach.</p>
+
+            </div>
+
+            <div class="skills effect">
+                <p>Skills</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+         </section>
+         <hr>
+
+         <!--................................. Projects Section -->
+         <section id="projects"  class="section">
+            <h1>Projects</h1>
+         <div class="cards">
+            <div class="card">
+                <img src="images/tt.jpg" alt="image">
+                <div class="layer">
+                  
+                    <p>A sleek and user-friendly to-do list application built with HTML, CSS, and JavaScript</p>
+                    <a href="https://tasktrack-er.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+             </div>
+
+                <div class="card">
+                    <img src="images/cc.jpg" alt="image">
+                    <div class="layer">
+                      
+                        <p> A sleek, API-based weather application built with  HTML, Tailwind CSS, and JavaScript. Provides real-time weather data with a user-friendly interface.</p>
+                        <a href="https://cloudca-st.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                    <div class="card">
+                        <img src="images/gg.jpg" alt="image">
+                        <div class="layer">
+                          
+                            <p>A web app that generates random gradient colors with a button click, providing the CSS code instantly.</p>
+                            <a href="https://gradient-craft.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mp.jpg" alt="image">
+                <div class="layer">
+                    <p>A web app built with HTML, Tailwind CSS, and JavaScript featuring play, pause, next, and previous buttons for seamless music playback.</p>
+                    <a href="https://rhythmstream.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+         </div>
+         </section>
+         <hr>
+
+         <!-- .................................Contact Section -->
+          <section id="contact"  class="section">
+            <div class="contact-left">
+                <h2>Contact Me</h2>
+               <div class="email">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tapadyotidas02@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope" ></i> <span> tapadyotidas02@gmail.com</span></a>
+                <p><i class="fa-solid fa-square-phone"></i> 6003993107</p>
+               </div>
+               <div class="socialMedia media">
+                <a href="https://www.linkedin.com/in/tapadyoti/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/tapadyotidas" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com/tapadyoti" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" action="index.html">
+                    <input type="text" name="Name" placeholder="Full Name" required >
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                    <input type="submit" class="btn" value="Submit">
+                </form>
+                <span class="msg"></span>
+            </div>
+          </section>
+
+        </main>
+        <footer>
+            <p>&copy; 2024 Tapadyoti Das. All rights reserved.</p>
+          </footer>
+
+          <script src="script.js"></script>
+
+</body>
+</html>

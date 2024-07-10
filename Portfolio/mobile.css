@@ -1,0 +1,193 @@
+@media screen and (max-width: 1080px) {
+    /* ..........Navbar */
+    #navbar i{
+        display: block;
+    }
+ #navitems{
+        position: fixed;
+        top: 0;
+        right: -200px;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.256);
+        padding-right: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        gap: 2rem;
+        transition: right 0.3s ease;
+    }
+    #navitems li{
+        padding-left: 1rem;
+    }
+
+    /*....... Home Section */
+
+    #image img{
+        height: 12rem;
+        width: 12rem;
+    }
+    #home{
+       padding: 6rem;
+        flex-direction: column;
+        justify-content: start;
+        height: 100%;
+
+    }
+    #details{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #details .name{
+        font-size: 1.5rem;
+    }
+    #details h2{
+        font-size: 1rem;
+    }
+    .bio{
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .bio p{
+        font-size: .9rem;
+    }
+    .bio span{
+
+        font-size: .8rem;
+
+    }
+    .bio span::after{
+        animation: mobile-typ 5s steps(19) infinite;
+    }
+    @keyframes mobile-typ {
+        40%, 60%{
+            left: calc(70% + 34px);
+        }
+
+    }
+/*
+................................About Section */
+    #about{
+        height: 100%;
+
+    }
+    .aboutme{
+        margin-top: 3rem;
+    }
+    .aboutme span:nth-child(1){
+        font-size: 1.4rem;
+    }
+    .aboutme span:nth-child(2){
+        font-size: 1.4rem;
+    }
+    .aboutme p{
+        width: 20rem;
+        font-size: 13px;
+    }
+
+    .skills p::after{
+        width: 60%;
+    }
+    .skills ul li{
+        font-size: .9rem;
+    }
+    .skills p{
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+    }
+    .effect ul li::after{
+        bottom: -2px;
+        height: 1px;
+    }
+
+    /* ....Project section */
+
+    #projects h1{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .cards{
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        gap: 1rem;
+
+    }
+    .card{
+        height: 16rem;
+        width: 14rem;
+
+    }
+    .layer p{
+        padding: 1rem;
+        font-weight: 500;
+    }
+
+    /* Contact section */
+    #contact{
+        justify-content: start;
+        flex-direction: column;
+        align-items:center ;
+        padding-top: 1rem;
+    }
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-left h2{
+        font-size: 1.4rem;
+    }
+    .contact-right form input{
+        width: 100%;
+    }
+    .contact-left .email{
+        margin-top: 1rem;
+    }
+
+}
+@media screen and (max-width: 941px){
+    #navitems li a{
+        font-size: 1rem;
+    }
+    #about{
+    flex-direction: column;
+    gap: 4rem;
+    padding: 1rem;
+    gap: 1.2rem;
+    }
+    .aboutme p{
+        width: 18rem;
+        font-size: 11px;
+    }
+    .skills p::after{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 357px){
+
+    #details .name{
+        font-size: 1.1rem;
+    }
+    .bio p{
+        font-size: .7rem;
+    }
+    .bio span{
+        font-size: .6rem;
+    }
+    .downloadBtn{
+        text-decoration: none;
+        width: 8rem;
+        font-size: .6rem;
+    }
+    .socialMedia {
+
+        margin-bottom: 1rem;
+
+    }
+
+}
