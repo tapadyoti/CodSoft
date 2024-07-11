@@ -325,7 +325,7 @@ body{
     text-align: center;
 }
 .contact-left .email{
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .contact-left .email a{
     text-decoration: none;
@@ -341,6 +341,9 @@ body{
 .contact-left .email a,p i{
     color: rgb(95, 150, 238);
     
+}
+.contact-left .media{
+    margin-top: 0;
 }
 .contact-left .media a{
     font-size: 4srem;
