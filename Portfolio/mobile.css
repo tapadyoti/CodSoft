@@ -71,6 +71,7 @@
 ................................About Section */
     #about{
         height: 100%;
+        margin-bottom: 3rem;
 
     }
     .aboutme{
@@ -103,15 +104,17 @@
     }
 
     /* ....Project section */
+    #projects {
+        padding: 3rem 0 5rem 0;
+    }
 
     #projects h1{
-        margin-top: 2rem;
         font-size: 1.5rem;
     }
 
     .cards{
         grid-template-columns: 1fr;
-        margin-top: 1rem;
+        margin-top: 1.6rem;
         gap: 1rem;
 
     }
@@ -130,7 +133,8 @@
         justify-content: start;
         flex-direction: column;
         align-items:center ;
-        padding-top: 1rem;
+        padding: 4rem 0 2rem 0;
+
     }
     .contact-left{
         display: flex;
