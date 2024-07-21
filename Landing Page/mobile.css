@@ -1,0 +1,93 @@
+@media  screen and (max-width: 892px) {
+    /* ......NavBar */
+    #navbar{
+        justify-content: space-between;
+    }
+    #navbar ul{
+        position: fixed;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.504);
+        flex-direction: column;
+        top: 0;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        right: -400px;
+        gap: 1.4rem;
+        transition: right 0.3s ease;;
+    }
+    #navbar .openMenu{
+    display: block !important;
+   }
+   .navItems .closeMenu{
+    display: block !important;
+}
+   #navbar .hide{
+    visibility: hidden;
+   }
+
+   /* Hero Section */
+   #hero h1{
+    font-size: 2rem;
+}
+}
+
+@media  screen and (max-width: 1140px){
+    #about{
+        height: 100%;
+    }
+    #about p{
+        width: 100%;
+        font-size: small;
+    }
+    .feature h3{
+        font-size: large;
+    }
+    .guitarist img{
+        display: none;
+    }
+    #courses-sec{
+        height: 100%;
+        padding-top: 2.4rem;
+        padding-bottom: 5rem;
+    }
+    .courses{
+        grid-template-columns: 1fr;
+        gap: 1.4rem;
+        margin-top: 1.6rem;
+        padding: 0 .6rem 0 .6rem; 
+    }
+    .course{
+        height: 350px;
+        width: 250px;
+        padding-bottom: 3rem;
+        
+    }
+    .course h2{
+        font-size: large;
+    }
+    .course .descrip{
+        font-size: small;
+    }
+    
+.course ul li{
+    font-size: x-small;
+}
+.courseEnroll{
+    font-size: small;
+    padding: .5rem;
+}
+#contact{
+    justify-content: start;
+    height: 100%;
+}
+#contact .info{
+    grid-template-columns: 200px;
+    place-items: start;
+}
+.info div h3{
+    margin-bottom: .4rem;
+}
+.infoLogo{
+    font-size: x-large;
+}
+}
